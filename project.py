@@ -39,16 +39,27 @@ def main():
         if action == "invalid":
             print("Invalid input. Please follow Bob instructions")
         elif action == "open":
-            open_app(value)
+            open_application(value)
         elif action == "search":
-            search_web(value)
+            search(value)
         elif action == "ask":
-            print(ask_ai(value))
+            print(ask(value))
         elif action == "joke":
-            joke()
+            tell_joke()
 
         print()
 
+def open_application(app):
+    open_app(app)
+
+def search(query):
+    search_web(query)
+
+def ask(question):
+    return ask_ai(question)
+
+def tell_joke():
+    joke()
 
 if __name__ == "__main__":
     main()
