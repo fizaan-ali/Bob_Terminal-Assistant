@@ -1,5 +1,5 @@
 # Bob - Terminal Assistant
-#### Video Demo: https://youtu.be/jfgsMc50I4I
+#### Video Demo: [https://youtu.be/jfgsMc50I4I](https://youtu.be/KbhDa4VYQ40?si=WzSP3R2DX1q78MYh)
 #### Description:
 
 ## What is Bob?
